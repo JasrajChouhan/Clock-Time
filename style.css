@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #212121;
+    color: white;
+}
+
+.center{
+    
+    
+}
+.banner{
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    
+    
+}
+#clock{
+
+    height: 100px;
+    background-color: orange;
+    border-radius: 7px;
+    border: nones;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    min-width: 200px;
+    box-shadow: 5px black;
+    animation-duration: 200ms;
+
+}
+#clock:hover{
+    background-color: rgb(224, 151, 15);
+    scale: 1.1;
+}
